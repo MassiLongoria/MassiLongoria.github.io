@@ -6,6 +6,34 @@ body {
     color: #222;
 }
 
+nav {
+  background-color: #3b5998;
+  padding: 0.8em 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1.5em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
 h1 {
     background-color: #3b5998;
     color: white;
